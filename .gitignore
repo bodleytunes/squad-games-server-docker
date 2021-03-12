@@ -1,2 +1,3 @@
 squad-data/*
+!squad-data/SquadGame
 !squad-data/SquadGame/ServerConfig
