@@ -3,7 +3,11 @@ version: '3.3'
 services:
 
     squad:
-      image: cm2network/squad:latest
+      #image: cm2network/squad:latest
+      image: reg.wizznet.co.uk:80/wizznet/squad-games-server-docker
+      build:
+        context: ./remotesquad
+        dockerfile: buster/Dockerfile
       restart: always
       ports:
        - "7787:7787"
