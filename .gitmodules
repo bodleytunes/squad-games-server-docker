@@ -1,0 +1,3 @@
+[submodule "remotesquad"]
+	path = remotesquad
+	url = https://github.com/CM2Walki/Squad
